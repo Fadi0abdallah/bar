@@ -1,0 +1,103 @@
+@font-face {
+    font-family: roboto;
+    src: url('../font/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+    font-family: roboto;
+    text-align: center;
+
+}
+
+header {
+    background-image: url(../image/banner-1.jpg);
+    padding: 225px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    line-height: 2.5;
+    font-size: 3rem;
+
+}
+
+.one {
+    color: rgb(255, 255, 255);
+
+    line-height: 3;
+}
+
+.buone {
+    background-color: #fbfbfb;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    padding: 10px 35px;
+    width: 150px;
+    border-radius: 15px;
+    line-height: 5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buone:hover {
+    background-color: black;
+    color: #ffff;
+}
+
+
+
+
+h2 {
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.deux {
+    line-height: 3;
+}
+
+.butwo {
+    background-color: black;
+    color: white;
+    padding: 12px 35px;
+    width: 150px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3;
+    border: 1px solid black;
+}
+
+.butwo:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+   
+}
+img{
+    height: 50vh;
+    width: 100%;
+    
+}
+footer{
+height: 90px;
+}
+
+
+.three {
+
+    background-color: rgba(32, 30, 30, 30);
+    color: #ffff;
+    padding: 20px;
+    
+
+}
